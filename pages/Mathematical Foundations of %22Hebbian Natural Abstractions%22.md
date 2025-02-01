@@ -98,7 +98,7 @@ tags:: Neuroscience, Hebbian Natural Abstractions, Hebbian Learning, Natural Abs
 - ## ‘All-to-All’: Recurrent circuit - analysis
   
   The second important component of the hierarchical processing framework is the recurrent circuit. In this circuit, individual neurons within a population interconnect, creating a network that allows information to pass back and forth between neurons. This type of circuit is important for tasks like memory and pattern recognition, where information from multiple sources is integrated and processed over time.
-- ![Untitled (4).webp](../assets/Untitled_(4)_1738440362703_0.webp)
+- ![Untitled (2).webp](../assets/Untitled_(2)_1738440428536_0.webp)
 - In the recurrent circuit we have to consider a quadratic number of possible connections, $w_{ij}$, rather than the linear number of connections from the feedforward circuit, $w_j$. In particular, the rule for Hebbian learning with weight decay now becomes
   
   $$
@@ -122,10 +122,11 @@ tags:: Neuroscience, Hebbian Natural Abstractions, Hebbian Learning, Natural Abs
   
   ---
 - # Footnotes
-- See [Oja’s rule](http://www.scholarpedia.org/article/Oja_learning_rule)**,** [BCM rule,](http://www.scholarpedia.org/article/BCM_theory) ****[Heterosynaptic STDP](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3787503/) and [balanced inhibitory plasticity](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010682) for more information.
-- For a similar derivation for Oja’s rule, see [this article](http://www.scholarpedia.org/article/Oja_learning_rule).
-- For example, it neglects [feedback connections](https://onlinelibrary.wiley.com/doi/10.1002/cne.23458) and [multimodality](https://www.science.org/doi/10.1126/science.292.5523.1791a).
-- Note that we assumed above that the average activity of all cells is zero, which justifies us calling $\bold{x}^T\bold{x}$ the covariance matrix. We leave it to the motivated reader to convince themselves that the derivation also works with non-zero average firing rates and an appropriate offset in the learning rule.
+- 1) See [Oja’s rule](http://www.scholarpedia.org/article/Oja_learning_rule)**,** [BCM rule,](http://www.scholarpedia.org/article/BCM_theory) ****[Heterosynaptic STDP](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3787503/) and [balanced inhibitory plasticity](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010682) for more information.
+  id:: 679e7ac3-a006-46b3-b74e-404489a4de57
+- 2) For a similar derivation for Oja’s rule, see [this article](http://www.scholarpedia.org/article/Oja_learning_rule).
+- 3) For example, it neglects [feedback connections](https://onlinelibrary.wiley.com/doi/10.1002/cne.23458) and [multimodality](https://www.science.org/doi/10.1126/science.292.5523.1791a).
+- 4) Note that we assumed above that the average activity of all cells is zero, which justifies us calling $\bold{x}^T\bold{x}$ the covariance matrix. We leave it to the motivated reader to convince themselves that the derivation also works with non-zero average firing rates and an appropriate offset in the learning rule.
   
   ---
 - # Appendix
@@ -133,15 +134,10 @@ tags:: Neuroscience, Hebbian Natural Abstractions, Hebbian Learning, Natural Abs
   **Why is pure Hebbian learning biologically implausible?**
   
   See this graph, that shows, for 250 iterations with a learning rate of 0.1, how the output of the Hebbian learning algorithm behaves and develops:
-  
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e2074e4a-0093-4690-ab90-796c4b62bcae/Untitled.png)
-  
-  Here are the plotted weight vectors  $\in \mathbb{R}^2$, also for 250 Iterations:
-  
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b70bbc27-91f2-4e95-bf46-2cf562e3c744/Untitled.png)
-  
-  This shows, that with enough iterations, the weights of neurons equipped with Hebbian learning grow explosively - there is no decay term that limits their growth.
+- ![Untitled (5).webp](../assets/Untitled_(5)_1738440453112_0.webp)
+- Here are the plotted weight vectors  $\in \mathbb{R}^2$, also for 250 Iterations:
+- ![Untitled (6).webp](../assets/Untitled_(6)_1738440446201_0.webp)
+- This shows, that with enough iterations, the weights of neurons equipped with Hebbian learning grow explosively - there is no decay term that limits their growth.
   
   In contrast, Hebbian learning with a linear weight decay term is relatively stable:
-  
-  <!-- notionvc: 74bf37cb-a2f9-4759-82b7-9343d8a7eced -->
+- ![Untitled (7).webp](../assets/Untitled_(7)_1738440438568_0.webp)
