@@ -1,32 +1,35 @@
-# Introduction
+tags:: Effective Altruism, Cognitive Science, Brain enthusiasts, Research, Artificial Sentience
 
-In [the last post](https://www.snellessen.com/why-we-can-not-yet-say-anything-about-the-sentience-of-ai-systems), I tried to justify the proposition: We have no reliable criterion to evaluate whether an AI system is sentient. While I find this conclusion convincing, you could respond to it: "Well, obviously. You never truly know whether somebody is conscious as well. But we have to be practical and try to find reasonable grounds on which we judge the consciousness of our fellow humans and other beings. That should be possible, even for AI systems!". I think you could answer this concern by saying that those „reasonable grounds“ aren’t applicable to AI systems. We are morphologically fundamentally different. But it’s fair to say that „sufficient morphological similarity“ is just a heuristic that can sometimes fail – and I don’t know how often it fails, since we have no experimental data.
-
-So is there a stronger objection to the possibility of examining the sentience of AI systems with our current tools? And what should we do about this precarious epistemic situation? I will try to answer these two questions in this post. Let me first give a short recap of the last post, so you are up-to-date.
-
-In the last post, I tried to reason for the following argument:
-
-Premise (1): Sentientism is true.
-
-Premise (2): There is no reliable criterion for AI systems that we can use to determine whether an AI system is sentient.
-
-Conclusion (1): We cannot currently make a statement about whether AI systems are moral patients.
-
-In doing so, I referred to (Dung, 2022)’s version of Sentientism, where the sentience is a necessary and sufficient ground for ascribing psychological moral patient status. I then went on to evaluate certain strategies in investigating whether a being is conscious or not, as phenomenal consciousness is a necessary condition of being sentient. Now, I want to provide support for the following argument:
-
-Premise (3): Assume that we know that AI systems are sentient.
-
-Premise (4): There is no reliable criterion for the content of the states of consciousness of AI systems.
-
-Premise (5): We are only morally responsible for the consequences of our actions that we can assess to the best of our knowledge and conscience.
-
-Conclusion (2): Since we have no reliable basis for deciding whether AI systems are moral objects and what interests they pursue, we cannot assess to the best of our knowledge and conscience how we should deal with AI systems.
-
----
-
-*This essay was written for a different project, but I wanted to share it anyways, as I would like to write more about the topic. Also, this is exploratory research – thus, I articulate rather strong beliefs in this essay, but which are loosely held. After all I am as clueless about consciousness as everybody else.*
-
----
+- ![DALLE_2023-04-09_14.08.22_-_a_oil_painting_of_nothingness_with_an_easing_but_eerie_vibe_by_Moebius.webp](../assets/DALLE_2023-04-09_14.08.22_-_a_oil_painting_of_nothingness_with_an_easing_but_eerie_vibe_by_Moebius_1738441502173_0.webp)
+- # Introduction
+  
+  In [the last post](https://www.snellessen.com/why-we-can-not-yet-say-anything-about-the-sentience-of-ai-systems), I tried to justify the proposition: We have no reliable criterion to evaluate whether an AI system is sentient. While I find this conclusion convincing, you could respond to it: "Well, obviously. You never truly know whether somebody is conscious as well. But we have to be practical and try to find reasonable grounds on which we judge the consciousness of our fellow humans and other beings. That should be possible, even for AI systems!". I think you could answer this concern by saying that those „reasonable grounds“ aren’t applicable to AI systems. We are morphologically fundamentally different. But it’s fair to say that „sufficient morphological similarity“ is just a heuristic that can sometimes fail – and I don’t know how often it fails, since we have no experimental data.
+  
+  So is there a stronger objection to the possibility of examining the sentience of AI systems with our current tools? And what should we do about this precarious epistemic situation? I will try to answer these two questions in this post. Let me first give a short recap of the last post, so you are up-to-date.
+  
+  In the last post, I tried to reason for the following argument:
+  
+  Premise (1): Sentientism is true.
+  
+  Premise (2): There is no reliable criterion for AI systems that we can use to determine whether an AI system is sentient.
+  
+  Conclusion (1): We cannot currently make a statement about whether AI systems are moral patients.
+  
+  In doing so, I referred to (Dung, 2022)’s version of Sentientism, where the sentience is a necessary and sufficient ground for ascribing psychological moral patient status. I then went on to evaluate certain strategies in investigating whether a being is conscious or not, as phenomenal consciousness is a necessary condition of being sentient. Now, I want to provide support for the following argument:
+  
+  Premise (3): Assume that we know that AI systems are sentient.
+  
+  Premise (4): There is no reliable criterion for the content of the states of consciousness of AI systems.
+  
+  Premise (5): We are only morally responsible for the consequences of our actions that we can assess to the best of our knowledge and conscience.
+  
+  Conclusion (2): Since we have no reliable basis for deciding whether AI systems are moral objects and what interests they pursue, we cannot assess to the best of our knowledge and conscience how we should deal with AI systems.
+  
+  ---
+  
+  *This essay was written for a different project, but I wanted to share it anyways, as I would like to write more about the topic. Also, this is exploratory research – thus, I articulate rather strong beliefs in this essay, but which are loosely held. After all I am as clueless about consciousness as everybody else.*
+  
+  ---
 - # What if AI systems are sentient?
   
   The obvious questions following the acceptance of Conclusion (1) are: What the hell are we going to do now? Do we have moral responsibilities concerning AI systems? After all, we do not now know whether AI systems have moral rights.
@@ -122,5 +125,3 @@ Conclusion (2): Since we have no reliable basis for deciding whether AI systems 
   Varner, Gary E.: *Personhood, Ethics, and Animal Cognition: Situating Animals in Hare’s Two Level Utilitarianism*. Oxford, New York: Oxford University Press, 2012 — ISBN 978-0-19-975878-4.
   
   Ward, Lawrence M.: The thalamic dynamic core theory of conscious experience. In: *Consciousness and Cognition* Vol. 20 (2011), No. 2, p. 464–486.
-  
-  <!-- notionvc: 263f57d6-5eee-498c-95f0-61a77f3da692 -->
