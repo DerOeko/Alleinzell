@@ -1,19 +1,20 @@
-# Introduction
+tags:: Personal, Accountability, Productivity, Life
 
-[Previously](https://www.notion.so/Why-you-might-want-someone-to-hold-you-accountable-d9e2c82854024a1b80cf5ad027ce18ee?pvs=21), I wrote about accountability. Since this was a collab post with [my accountability buddy](https://www.konstantinpilz.com/). we wanted to make the article as informative as possible.
-
-We cut out some reflections on accountability relationships that weren't relevant. Thus, I want to summarize those views in greater detail here. Still, this is a pretty short post.
-
----
-
-A question that often comes up when talking about accountability relationships is: “How does this differ from a normal friendship?”. To answer that, we have to distinguish between different kinds of accountability relationships.
-
-ARs fall on a 2-dimensional spectrum, that looks roughly like this:
-- ![This is based on my own personal experience, so take it with a grain of salt. Because of my lack of graphic design skills, I couldn’t figure out how to make the box’ edges dissolve. Imagine that they are dissolving and friends can vary on both axes. Accountability buddies as well. ](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dd856cb9-0de4-4482-b600-14439a19d0ec/Hold_accountable_for_happiness.png)
+- ![reflectionsonfaccountability.webp](../assets/reflectionsonfaccountability_1738441794210_0.webp)
+- # Introduction
   
-  This is based on my own personal experience, so take it with a grain of salt. Because of my lack of graphic design skills, I couldn’t figure out how to make the box’ edges dissolve. Imagine that they are dissolving and friends can vary on both axes. Accountability buddies as well.
+  [Previously](https://www.notion.so/Why-you-might-want-someone-to-hold-you-accountable-d9e2c82854024a1b80cf5ad027ce18ee?pvs=21), I wrote about accountability. Since this was a collab post with [my accountability buddy](https://www.konstantinpilz.com/). we wanted to make the article as informative as possible.
   
-  Friends generally care more about your happiness and have a tendency in dilemma-situation to guide you towards the option that makes you more *happy*. At the same time, they generally have less control over your life and tend to coexist *with* you, but only “interfere” rarely.
+  We cut out some reflections on accountability relationships that weren't relevant. Thus, I want to summarize those views in greater detail here. Still, this is a pretty short post.
+  
+  ---
+  
+  A question that often comes up when talking about accountability relationships is: “How does this differ from a normal friendship?”. To answer that, we have to distinguish between different kinds of accountability relationships.
+  
+  ARs fall on a 2-dimensional spectrum, that looks roughly like this:
+- ![Hold_accountable_for_happiness.webp](../assets/Hold_accountable_for_happiness_1738441760395_0.webp)
+	- This is based on my own personal experience, so take it with a grain of salt. Because of my lack of graphic design skills, I couldn’t figure out how to make the box’ edges dissolve. Imagine that they are dissolving and friends can vary on both axes. Accountability buddies as well.
+- Friends generally care more about your happiness and have a tendency in dilemma-situation to guide you towards the option that makes you more *happy*. At the same time, they generally have less control over your life and tend to coexist *with* you, but only “interfere” rarely.
   
   Accountability Buddies care more about holding you accountable to be productive, while they also exert more control over your life (mostly because you are asking them to it, so you are probably more susceptible to adapt to their advice).
   

@@ -1,6 +1,6 @@
 tags:: Personal, Accountability, Productivity, Life
 
-- ![DALLE_2022-10-31_15.02.24_-_An_abstract_painting_of_accountability_a_symmetric_composition_with_three_dominant_colors.webp](../assets/DALLE_2022-10-31_15.02.24_-_An_abstract_painting_of_accountability_a_symmetric_composition_with_three_dominant_colors_1738441584172_0.webp)
+- ![DALLE_2022-10-31_15.02.24_-_An_abstract_painting_of_accountability_a_symmetric_composition_with_three_dominant_colors.webp](../assets/DALLE_2022-10-31_15.02.24_-_An_abstract_painting_of_accountability_a_symmetric_composition_with_three_dominant_colors_1738441584172_0.webp){:height 786, :width 778}
 - # TL;DR:
   
   An accountability buddy is someone to check in with from time to time to give you social motivation to achieve your goals. There are many additional benefits from this process such as planning together and getting feedback on your progress. I think especially EAs in remote areas or those doing EA-related work, or upskilling part-time would benefit from having an accountability buddy. If you’d like to try it out, put your details down [in this table](https://docs.google.com/spreadsheets/d/143Z16crSfv9BB2dn5eaoseT0ZpbMVaizBASL43eXJ7s/edit#gid=0).
