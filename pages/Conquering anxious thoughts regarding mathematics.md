@@ -1,6 +1,8 @@
--
+tags:: Personal, Mental Health, Mathematics, Productivity, Life
+
 - ![DALLE_2022-12-27_18.20.40.webp](../assets/DALLE_2022-12-27_18.20.40_1738442075549_0.webp){:height 786, :width 778}
--
+- ---
+- *Disclaimer: Very old post. I updated on a lot of this, but want to keep this only for [[Accountability]] and [[Completeness]].*
 - **I.**
   
   When I went to school, there were two camps: people who believed that they get maths and people who don’t. I was always a sceptic of this segmentation. There were people who believed that they were good at maths, and also got good grades, but also the polar opposite. This seems to serve as weak evidence, that there is a distinction between people who get maths and people who don’t. Moreover, that people usually are good at predicting where they lie on the spectrum.
