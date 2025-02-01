@@ -1,4 +1,4 @@
-tags::
+tags:: Effective Altruism, Cognitive Science, Brain enthusiasts, Research, Artificial Sentience
 
 - ![DALLE_2023-02-19_11.14.26_-_A_suffering_robot_in_the_style_of_a_moebius_illustration.webp](../assets/DALLE_2023-02-19_11.14.26_-_A_suffering_robot_in_the_style_of_a_moebius_illustration_1738441282874_0.webp)
 - **TL;DR:** *Buckle up as we dive into the metaphysical world of phenomenal consciousness and Artificial Sentience. With this essay, I want to explore if we can currently make any progress on this journey. I argue that there is no reliable criterion to determine whether an AI system is sentient. Various approaches to predict AI sentience are examined, but all are found to be based on implausible speculation. The essay focuses on the properties approach, which considers psychological attributes like autonomy or sentience to determine moral status. It also highlights the challenges in determining the sentience of AI systems due to their diverse nature.*

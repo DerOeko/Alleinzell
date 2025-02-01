@@ -1,6 +1,7 @@
-- ![DALL·E 2023-02-08 15.33.36 - A moebius illustration depicting the sharing of objects of pleasures, e.g. food and other things in our society, trending on ArtStation..png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2e56ea20-a3bf-4c79-9081-686178513a70/DALLE_2023-02-08_15.33.36_-_A_moebius_illustration_depicting_the_sharing_of_objects_of_pleasures_e.g._food_and_other_things_in_our_society_trending_on_ArtStation..png)
-  
-  **Questioning John Stuart Mill's Argument for the Promotion of General Happiness**
+tags:: Utilitarianism, Ethics, John Stuart Mill
+
+- ![DALLE_2023-02-08_15.33.36_-_A_moebius_illustration_depicting_the_sharing_of_objects_of_pleasures_e.g._food_and_other_things_in_our_society_trending_on_ArtStation..webp](../assets/DALLE_2023-02-08_15.33.36_-_A_moebius_illustration_depicting_the_sharing_of_objects_of_pleasures_e.g._food_and_other_things_in_our_society_trending_on_ArtStation._1738441432277_0.webp)
+- **Questioning John Stuart Mill's Argument for the Promotion of General Happiness**
   
   TL;DR: *Ethics essay about John Stuart Mill’s Argument for the Promotion of General Happiness. Short answer: the source of the ought comes from the inside, rather than from a rational and objective standpoint. I think that this argumentative retreat is important for altruists that are running at risk of burning out from moral obligations.*
   
