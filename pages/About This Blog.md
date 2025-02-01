@@ -1,7 +1,7 @@
 - ![Untitled design.png](../assets/Untitled_design_1738442268466_0.png)
 - ---
 - I am a Bachelor student in Artificial Intelligence at [Radboud University](https://www.ru.nl/en/education/bachelors/artificial-intelligence), Nijmegen, Netherlands, with former education in Philosophy, Neuroscience, and Cognition, as well as Psychology. My academic interests are:
-	- Steering towards a mechanistic understanding of neural networks.
+	- Steering towards a mechanistic understanding of neural networks and their internal representations.
 	- Understanding of the cognitive mechanisms of controllability estimation.
 	- The intersection of artificial and natural intelligence, i.e. can the field of AI learn from natural intelligence research and vice versa?
 	- Novel brain imaging and modulation devices, such as fTUS. Generally, adaptive BCI applications!
