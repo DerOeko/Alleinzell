@@ -45,8 +45,7 @@ tags:: Neuroscience, Hebbian Natural Abstractions, Hebbian Learning, Natural Abs
 	- Hierarchical processing in the ventral stream. ([Manassi et al 2013](https://jov.arvojournals.org/article.aspx?articleid=2193828))
 - While the classic framework has limitations³, it still provides a useful approximation of information processing in the biological brain. We focus on two abstract circuits that are ubiquitous throughout the classic framework:
 - **Feedforward circuit**: Given two distinct populations of neurons, how does the brain learn the appropriate neural projections from one population to the other? Generally, the feedforward circuit is a "many-to-one" setup, where several neurons project onto a single neuron in another layer.
-  
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c613ab71-a7fd-4bbc-9898-b38c9936b044/Untitled.png)
+-
 - **Recurrent circuit**: Given a population of neurons, how does the brain learn the appropriate connections of neurons within the circuit? Generally, we interpret a recurrent circuit as a "all-to-all" setup, where several neurons in a layer connect to each other. Even though in practice not all neurons connect with all other neurons, we can still apply the all-to-all setup, where most of the connection strengths are set to zero (see [Ko et al., 2011](https://www.nature.com/articles/nature09880) for some biological background).
   
   ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0348ccf6-6a8e-43f9-b02c-0f6940f183ce/Untitled.png)
