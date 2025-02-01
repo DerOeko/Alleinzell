@@ -45,11 +45,11 @@ tags:: Neuroscience, Hebbian Natural Abstractions, Hebbian Learning, Natural Abs
 	- Hierarchical processing in the ventral stream. ([Manassi et al 2013](https://jov.arvojournals.org/article.aspx?articleid=2193828))
 - While the classic framework has limitations[³](((679e7ac3-2453-4d61-9efd-93c2fbcacf7a))), it still provides a useful approximation of information processing in the biological brain. We focus on two abstract circuits that are ubiquitous throughout the classic framework:
 - **Feedforward circuit**: Given two distinct populations of neurons, how does the brain learn the appropriate neural projections from one population to the other? Generally, the feedforward circuit is a "many-to-one" setup, where several neurons project onto a single neuron in another layer.
-- ![Untitled (1).webp](../assets/Untitled_(1)_1738440300318_0.webp)
+- ![Untitled_(1).webp](../assets/Untitled_(1)_1738440300318_0.webp)
 - **Recurrent circuit**: Given a population of neurons, how does the brain learn the appropriate connections of neurons within the circuit? Generally, we interpret a recurrent circuit as a "all-to-all" setup, where several neurons in a layer connect to each other. Even though in practice not all neurons connect with all other neurons, we can still apply the all-to-all setup, where most of the connection strengths are set to zero (see [Ko et al., 2011](https://www.nature.com/articles/nature09880) for some biological background).
-- ![Untitled (2).webp](../assets/Untitled_(2)_1738440314726_0.webp)
+- ![Untitled_(2).webp](../assets/Untitled_(2)_1738440314726_0.webp)
 - ## ‘Many-to-one’: Feedforward circuits - analysis
-- ![Untitled (3).webp](../assets/Untitled_(3)_1738440326854_0.webp)
+- ![Untitled _(3).webp](../assets/Untitled_(3)_1738440326854_0.webp)
 - In this scenario individual neurons that receive multiple of inputs from another population of neurons (as is the case for pyramidal neurons in layer 2/3 of the cortex). Speaking in terms of information processing, each neuron faces the task of extracting “*relevant*” information from a barrage of synaptic inputs. So, the neuron has to prioritize some inputs over others, depending on its role in the circuit. This role emerges during early brain development in an activity-dependent fashion through the flexible self-organization of neural circuits ([Kirchner, 2022](https://universalprior.substack.com/p/the-brain-that-builds-itself)).
   
   $$
