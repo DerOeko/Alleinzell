@@ -49,7 +49,7 @@ tags:: Neuroscience, Hebbian Natural Abstractions, Hebbian Learning, Natural Abs
 - **Recurrent circuit**: Given a population of neurons, how does the brain learn the appropriate connections of neurons within the circuit? Generally, we interpret a recurrent circuit as a "all-to-all" setup, where several neurons in a layer connect to each other. Even though in practice not all neurons connect with all other neurons, we can still apply the all-to-all setup, where most of the connection strengths are set to zero (see [Ko et al., 2011](https://www.nature.com/articles/nature09880) for some biological background).
 - ![Untitled_(2).webp](../assets/Untitled_(2)_1738440314726_0.webp)
 - ## ‘Many-to-one’: Feedforward circuits - analysis
-- ![Untitled _(3).webp](../assets/Untitled_(3)_1738440326854_0.webp)
+- ![Untitled_(3).webp](../assets/Untitled_(3)_1738440326854_0.webp)
 - In this scenario individual neurons that receive multiple of inputs from another population of neurons (as is the case for pyramidal neurons in layer 2/3 of the cortex). Speaking in terms of information processing, each neuron faces the task of extracting “*relevant*” information from a barrage of synaptic inputs. So, the neuron has to prioritize some inputs over others, depending on its role in the circuit. This role emerges during early brain development in an activity-dependent fashion through the flexible self-organization of neural circuits ([Kirchner, 2022](https://universalprior.substack.com/p/the-brain-that-builds-itself)).
   
   $$
@@ -89,7 +89,7 @@ tags:: Neuroscience, Hebbian Natural Abstractions, Hebbian Learning, Natural Abs
   We recognize that this equation is the [eigenvector equation](https://www.wikiwand.com/en/Eigenvalues_and_eigenvectors), i.e. we learn that the vector of synaptic weights, $\bold{w}$, should be an eigenvector of the covariance matrix, $\bold{x}^T\bold{x}$. Under [reasonable assumptions](http://www.scholarpedia.org/article/Oja_learning_rule#Oja_learning_rule_and_principal_component_analysis), we can furthermore derive that $\bold{w}$ will be proportional to the eigenvector of the covariance matrix with the largest eigenvalue ([Oja, 1983](https://openlibrary.org/books/OL3172585M/Subspace_methods_of_pattern_recognition); [1992](https://www.sciencedirect.com/science/article/abs/pii/S0893608005800899)).
   
   In summary, a neuron in the feedforward circuit will learn to extract a principal component of its input:
-- ![Untitled (4).webp](../assets/Untitled_(4)_1738440396471_0.webp)
+- ![Untitled_(4).webp](../assets/Untitled_(4)_1738440396471_0.webp)
 - Each red arrow indicates the extracted principal component that emerged through Hebbian learning of input weights.
   
   We have arrived at the principal component by deriving it as the eigenvector of the covariance matrix. Interestingly, principal component analysis identifies the eigenvector *corresponding to the largest eigenvalue of the covariance matrix* as the projections of the input space that [retain the largest amount of variance](https://www.wikiwand.com/en/Principal_component_analysis#:~:text=First). In our case, this is the weight vector $\bold{w}$ at the point of convergence.
@@ -98,7 +98,7 @@ tags:: Neuroscience, Hebbian Natural Abstractions, Hebbian Learning, Natural Abs
 - ## ‘All-to-All’: Recurrent circuit - analysis
   
   The second important component of the hierarchical processing framework is the recurrent circuit. In this circuit, individual neurons within a population interconnect, creating a network that allows information to pass back and forth between neurons. This type of circuit is important for tasks like memory and pattern recognition, where information from multiple sources is integrated and processed over time.
-- ![Untitled (2).webp](../assets/Untitled_(2)_1738440428536_0.webp)
+- ![Untitled_(2).webp](../assets/Untitled_(2)_1738440428536_0.webp)
 - In the recurrent circuit we have to consider a quadratic number of possible connections, $w_{ij}$, rather than the linear number of connections from the feedforward circuit, $w_j$. In particular, the rule for Hebbian learning with weight decay now becomes
   
   $$
@@ -136,10 +136,10 @@ tags:: Neuroscience, Hebbian Natural Abstractions, Hebbian Learning, Natural Abs
   **Why is pure Hebbian learning biologically implausible?**
   
   See this graph, that shows, for 250 iterations with a learning rate of 0.1, how the output of the Hebbian learning algorithm behaves and develops:
-- ![Untitled (5).webp](../assets/Untitled_(5)_1738440453112_0.webp)
+- ![Untitled_(5).webp](../assets/Untitled_(5)_1738440453112_0.webp)
 - Here are the plotted weight vectors  $\in \mathbb{R}^2$, also for 250 Iterations:
-- ![Untitled (6).webp](../assets/Untitled_(6)_1738440446201_0.webp)
+- ![Untitled_(6).webp](../assets/Untitled_(6)_1738440446201_0.webp)
 - This shows, that with enough iterations, the weights of neurons equipped with Hebbian learning grow explosively - there is no decay term that limits their growth.
   
   In contrast, Hebbian learning with a linear weight decay term is relatively stable:
-- ![Untitled (7).webp](../assets/Untitled_(7)_1738440438568_0.webp)
+- ![Untitled_(7).webp](../assets/Untitled_(7)_1738440438568_0.webp)
