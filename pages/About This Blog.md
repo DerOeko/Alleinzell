@@ -8,5 +8,5 @@
   When I'm not immersed in my academic pursuits, I enjoy various hobbies. For example, I like to read, bouldering, playing guitar and piano, and riding my bike (a lovely Koga Miyata Carbon Tech 5000). I also sympathize with *some* views of the [Effective Altruism](https://www.effectivealtruism.org/) and [Rationality community](https://lesswrong.com/) (though I disagree on many parts as well; in general, I try to [keep my identity small](http://www.paulgraham.com/identity.html) and [form my own views](https://forum.effectivealtruism.org/posts/8RcFQPiza2rvicNqw/minimal-trust-investigations)).
   
   If you’re interested in any of the aforementioned topics, the easiest method to contact me is via [Telegram](https://t.me/deroeko) (~1-3 days answering delay usually – but 100% response rate), otherwise you can use my [email](https://www.notion.so/Home-d61c32385b114627b19145dc3a008c15?pvs=21). [Here](https://fffutu.re/1-on-1s) you can also book a 1-on-1 with me or [give me anonymous feedback](https://fffutu.re/samfeedback) (I love reading feedback!). Also: I subscribe to [Crocker’s Rules](http://sl4.org/crocker.html), so feel free to optimize your message for information, rather than being nice (this does not imply reciprocity).
-- public:: true
+-
 - <!-- notionvc: 4f3d6fcd-85c0-4208-8dc0-d8fc759ed4be -->
