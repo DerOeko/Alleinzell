@@ -26,7 +26,7 @@ tags:: AI Safety, AI Alignment, Collab, Research
   
   While being brain enthusiasts undoubtedly makes us biased in favor of
   their importance, it also gives us a (hopefully) useful inside view of
-  how brain enthusiasts might meaningfully contribute to AI Safety¹].
+  how brain enthusiasts might meaningfully contribute to AI Safety[¹]().
   In this post, we attempt to shine a light on the current representation
   of brain enthusiasts in AI Safety and provide some advice on how brain
   enthusiasts might enter the field.
@@ -37,7 +37,7 @@ tags:: AI Safety, AI Alignment, Collab, Research
   computer science, mathematics, or physics. This is an instance where
   stereotypes are correct:
   
-  Using a [previously published dataset](https://www.lesswrong.com/posts/FgjcHiWvADgsocE34/a-descriptive-not-prescriptive-overview-of-current-ai), we determined the number of Alignment Forum posts per researcher and sorted the resulting table. We then added a “Background” column, where we noted the field in which the researcher obtained their most recent degree². As observed [previously](https://www.lesswrong.com/posts/FgjcHiWvADgsocE34/a-descriptive-not-prescriptive-overview-of-current-ai), the number of published posts is a long-tailed distribution³, with Stuart Armstrong dominating over everyone.
+  Using a [previously published dataset](https://www.lesswrong.com/posts/FgjcHiWvADgsocE34/a-descriptive-not-prescriptive-overview-of-current-ai), we determined the number of Alignment Forum posts per researcher and sorted the resulting table. We then added a “Background” column, where we noted the field in which the researcher obtained their most recent degree[²](). As observed [previously](https://www.lesswrong.com/posts/FgjcHiWvADgsocE34/a-descriptive-not-prescriptive-overview-of-current-ai), the number of published posts is a long-tailed distribution[³](), with Stuart Armstrong dominating over everyone.
   
   ![https://i0.wp.com/39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/3b11d0555eba46768e22137ed89327c212af4caa78fe3f78.png?resize=571%2C736&ssl=1](https://i0.wp.com/39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/3b11d0555eba46768e22137ed89327c212af4caa78fe3f78.png?resize=571%2C736&ssl=1)
   
@@ -58,7 +58,7 @@ tags:: AI Safety, AI Alignment, Collab, Research
   best thing? Is a strong technical background [necessary or merely sufficient](https://www.txstate.edu/philosophy/resources/fallacy-definitions/Confusion-of-Necessary.html)?
 - # **How did we get here?**
   
-  There are (at least) two⁴ possible explanations for why the composition of the field is biased in favor of researchers with technical backgrounds:
+  There are (at least) two[⁴]() possible explanations for why the composition of the field is biased in favor of researchers with technical backgrounds:
 - Either, there is an “efficient market” dynamic whereby only
   people with a technical background make progress and stay in the field,
 - Or there is a “[founder effect”](https://en.wikipedia.org/wiki/Founder_effect) dynamic whereby the first people entering the field had an outsized effect on the composition of the field later on.
@@ -70,7 +70,7 @@ tags:: AI Safety, AI Alignment, Collab, Research
 - **AI Safety *mostly* requires theoretical research but also *some* empirical research.** “Foundational questions” are the **most urgent** issue, but we anticipate that the situation might change soon-ish. If alignment foundations are established (or look promising), engineers
   will have a day in the sun, as someone needs to [implement these foundations in SOTA AI systems](https://www.lesswrong.com/posts/YDF7XhMThhNfHfim9/ai-safety-needs-great-engineers). Brain enthusiasts who picked up solid coding skills “somewhere” (or
   switched career paths to obtain these skills) might be able to help if
-  there’s a shortage of software engineers⁵.
+  there’s a shortage of software engineers[⁵]().
 - **AI Safety requires *some* theoretical research and *some* empirical research.** Beyond “foundational questions”, which might still be **very important**, there are also empirical questions about the properties of current
   & future AI. Answers to these empirical questions are critical for
   making progress in AI Safety at large. Brain enthusiasts might be
@@ -82,7 +82,7 @@ tags:: AI Safety, AI Alignment, Collab, Research
   
   The poles of this spectrum appear highly unlikely – pure theory
   without implementation is as useless as pure observation without
-  foresight⁶. But the intermediate scenarios appear plausible, and we’ll dive into them more in the next two sections.
+  foresight[⁶](). But the intermediate scenarios appear plausible, and we’ll dive into them more in the next two sections.
   
   ![On the spectrum from empirical to logical, brain enthusiasts tend more to the empirical pole than the typical AI Safety researcher. The bull & bear case describe two plausible ranges in which researchers could be able to work productively on AI Safety.](https://i0.wp.com/39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/4e0de721e8082b4246246328860899983d7ba0b2cf5fd100.png?resize=626%2C205&ssl=1)
   
@@ -120,7 +120,7 @@ tags:: AI Safety, AI Alignment, Collab, Research
   they are relevant”. Some reasonably well-understood portions of
   biological intelligence can map onto artificial intelligence. As long as
   you’re able to explain yourself in the common (technical) vocabulary,
-  your contribution will be valuable⁷.
+  your contribution will be valuable[⁷]().
 - ## Recommendations: the bull case
   
   ![A bull furiously writing computer code while drinking coffee in a room crammed full of books and papers stacked to the ceiling. #dalle](https://i0.wp.com/39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/66f0138cbb00dfc4207e63b41578f6a5bdb23a2da32b5dce.png?resize=531%2C531&ssl=1)
