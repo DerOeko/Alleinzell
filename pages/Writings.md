@@ -1,3 +1,11 @@
-## Essays:
-- [[Assessing Artificial Sentience: Are We Responsible?]]
--
+## Hebbian Natural Abstractions:
+	- []
+- ## Essays:
+	- [["Brain Enthusiasts" in AI Safety]]
+	- [[Assessing Artificial Sentience: Are We Responsible?]]
+	- [[Why we can not (yet) say anything about the sentience of AI systems]]
+	- [[Why should I care about the general happiness?]]
+- ## Personal stuff:
+	- [[Why you might want someone to hold you accountable]]
+	- [[Reflections on accountability]]
+	- [[Conquering anxious thoughts regarding mathematics]]
