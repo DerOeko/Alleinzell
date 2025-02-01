@@ -1,3 +1,5 @@
+public:: true
+
 - ![Arc_bYoqnzrsDp.png](../assets/Arc_bYoqnzrsDp_1738435775766_0.png){:height 363, :width 207}
   background-color:: yellow
 - I am a Bachelor student in Artificial Intelligence at [Radboud University](https://www.ru.nl/en/education/bachelors/artificial-intelligence), Nijmegen, Netherlands, with former education in Philosophy, Neuroscience, and Cognition, as well as Psychology. My academic focus lies at the intersection of artificial and natural intelligence. I’m particularly interested in exploring how the development of safe AI systems can benefit from insights in these fields.
