@@ -9,12 +9,12 @@
 - One of my previous projects revolved around the [Natural Abstractions Hypothesis](https://www.alignmentforum.org/tag/natural-abstraction#:~:text=The%20Natural%20Abstraction%20hypothesis%20says,dimensional%20than%20the%20system%20itself.) by [John Wentworth](https://www.linkedin.com/in/wentworthjohn/). I worked together with [Jan](https://universalprior.substack.com/) on understanding how the brain populates its cognitive maps with natural concepts (see [[Hebbian Natural Abstractions]]). I have also previous written about [[Artificial Sentience]], [[Ethics]] and [[Personal]] topics.
 - Before diving into this area, I was actively involved in the climate movement, where I contributed as a UX designer and worked with organizations such as [Together for Future e.V.](https://togetherforfuture.org/) and [Future Matters Project](https://en.futuremattersproject.org/). In these roles, I focused on project management, team development, and knowledge management.
 - When not immersed in the above things, I enjoy making music, bouldering, (long-distance) cycling and weight lifting. I sympathize with some views of the [Effective Altruism](https://www.effectivealtruism.org/) and [Rationality community](https://lesswrong.com/) (though I disagree on many parts as well; in general, I try to [keep my identity small](http://www.paulgraham.com/identity.html) and [form my own views](https://forum.effectivealtruism.org/posts/8RcFQPiza2rvicNqw/minimal-trust-investigations)).
+- ---
+- Here's [a link](https://drive.google.com/file/d/1rUV8LZY4cE7_q95OJDmqLQFlVQ-3URMO/view?usp=sharing) to my CV (last updated on 01.02.2025).
+- ---
 - Lastly, some words on this blog. This blog has cool features, a few of them:
 	- Internal links, to individual pages, but also blocks on pages. Click through them!
 	- Graphs of each page, i.e. find out which other pages the current page is connected to be clicking "page graph" in the right side bar.
 	- Use "Shift + Click" to open things in the sidebar.
 	- If you ever get lost, click the home button to get back to this page.
-	- Feel
-- ---
-- Here's [a link](https://drive.google.com/file/d/1rUV8LZY4cE7_q95OJDmqLQFlVQ-3URMO/view?usp=sharing) to my CV (last updated on 01.02.2025).
-- If you ever get lost, click the home button to get back to this page.
+	- Feel free to close or open the left and right panels by pressing "t + l" or "t + r", or clicking the respective icons.
