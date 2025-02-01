@@ -1,5 +1,6 @@
 ## Hebbian Natural Abstractions:
-	- []
+	- [[Introduction to "Hebbian Natural Abstractions"]]
+	- [[Mathematical Foundations of "Hebbian Natural Abstractions"]]
 - ## Essays:
 	- [["Brain Enthusiasts" in AI Safety]]
 	- [[Assessing Artificial Sentience: Are We Responsible?]]
