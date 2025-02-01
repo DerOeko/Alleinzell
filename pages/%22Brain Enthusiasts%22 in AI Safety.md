@@ -26,7 +26,7 @@ tags:: AI Safety, AI Alignment, Collab, Research
   
   While being brain enthusiasts undoubtedly makes us biased in favor of
   their importance, it also gives us a (hopefully) useful inside view of
-  how brain enthusiasts might meaningfully contribute to AI Safety[¹]().
+  how brain enthusiasts might meaningfully contribute to AI Safety[¹](((679e7fe1-515c-4143-8c73-37b82f730565))).
   In this post, we attempt to shine a light on the current representation
   of brain enthusiasts in AI Safety and provide some advice on how brain
   enthusiasts might enter the field.
@@ -37,7 +37,7 @@ tags:: AI Safety, AI Alignment, Collab, Research
   computer science, mathematics, or physics. This is an instance where
   stereotypes are correct:
   
-  Using a [previously published dataset](https://www.lesswrong.com/posts/FgjcHiWvADgsocE34/a-descriptive-not-prescriptive-overview-of-current-ai), we determined the number of Alignment Forum posts per researcher and sorted the resulting table. We then added a “Background” column, where we noted the field in which the researcher obtained their most recent degree[²](). As observed [previously](https://www.lesswrong.com/posts/FgjcHiWvADgsocE34/a-descriptive-not-prescriptive-overview-of-current-ai), the number of published posts is a long-tailed distribution[³](), with Stuart Armstrong dominating over everyone.
+  Using a [previously published dataset](https://www.lesswrong.com/posts/FgjcHiWvADgsocE34/a-descriptive-not-prescriptive-overview-of-current-ai), we determined the number of Alignment Forum posts per researcher and sorted the resulting table. We then added a “Background” column, where we noted the field in which the researcher obtained their most recent degree[²](((679e7fe1-5f57-409a-a9b3-0da6c277fa4c))). As observed [previously](https://www.lesswrong.com/posts/FgjcHiWvADgsocE34/a-descriptive-not-prescriptive-overview-of-current-ai), the number of published posts is a long-tailed distribution[³](((679e7fe1-88e6-401b-884a-05422474e264))), with Stuart Armstrong dominating over everyone.
   
   ![https://i0.wp.com/39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/3b11d0555eba46768e22137ed89327c212af4caa78fe3f78.png?resize=571%2C736&ssl=1](https://i0.wp.com/39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/3b11d0555eba46768e22137ed89327c212af4caa78fe3f78.png?resize=571%2C736&ssl=1)
   
@@ -134,7 +134,7 @@ tags:: AI Safety, AI Alignment, Collab, Research
   something like the [founder effect](https://en.wikipedia.org/wiki/Founder_effect).
   To contribute, you might have to learn some basic coding skills and
   technical vocabulary. But don’t spend too much time on this. Your
-  comparative advantage lies elsewhere. Consider applying for the [PIBBSS fellowship](https://www.pibbss.ai/fellowship), but also consider “just start experimenting”. [Request research access to the GPT API](https://share.hsforms.com/1b-BEAq_qQpKcfFGKwwuhxA4sk30) and ask the model [some pointed questions](https://universalprior.substack.com/p/cognitive-biases-in-large-language), grab [a dataset](https://www.lesswrong.com/posts/FgjcHiWvADgsocE34/a-descriptive-not-prescriptive-overview-of-current-ai) and investigate the eye color of the prominent researchers in the field⁸, or see what you can learn about [myopia](https://www.lesswrong.com/tag/myopia) by looking at people with anterograde/retrograde amnesia.
+  comparative advantage lies elsewhere. Consider applying for the [PIBBSS fellowship](https://www.pibbss.ai/fellowship), but also consider “just start experimenting”. [Request research access to the GPT API](https://share.hsforms.com/1b-BEAq_qQpKcfFGKwwuhxA4sk30) and ask the model [some pointed questions](https://universalprior.substack.com/p/cognitive-biases-in-large-language), grab [a dataset](https://www.lesswrong.com/posts/FgjcHiWvADgsocE34/a-descriptive-not-prescriptive-overview-of-current-ai) and investigate the eye color of the prominent researchers in the field[⁸](), or see what you can learn about [myopia](https://www.lesswrong.com/tag/myopia) by looking at people with anterograde/retrograde amnesia.
   
   Your brain enthusiasm background is your great strength, and it might appear counterintuitive how many [low-hanging fruits are for you to pick](https://www.theseedsofscience.org/2022-on-scaling-academia). *Usually,* low-hanging fruits are bad (or someone else would have picked them) – but AI Safety might *genuinely* be in a non-equilibrium state, and some very impactful projects might require little effort. Simply writing a post about what AI Safety looks
   like [through the lens of something you know well](https://www.lesswrong.com/posts/KtCJNw93KHg7MSSvw/adversarial-attacks-and-optimal-control) could be valuable. It is corny beyond all reasonableness – but you should adopt the [abundance mindset](https://www.clydebankmedia.com/definitions/business/abundance-mindset).
@@ -152,7 +152,7 @@ tags:: AI Safety, AI Alignment, Collab, Research
   
   In this section, we want to give you different options and
   recommendations for projects and topics you could contribute to,
-  depending on whether you are more of a bear or a bull⁹. Consider these “mini-project proposals”. If you’d like to work on one of those, feel free to reach out! Perhaps we can help!
+  depending on whether you are more of a bear or a bull[⁹](). Consider these “mini-project proposals”. If you’d like to work on one of those, feel free to reach out! Perhaps we can help!
   
   **Forecasting AI capabilities and analyzing AI takeoff scenarios.** One approach for forecasting timelines until the emergence of AGI is to [anchor](https://astralcodexten.substack.com/p/biological-anchors-a-trick-that-might?s=r) the analysis with what we know about the [computational capacity of the human brain](https://www.lesswrong.com/posts/pgQ3m73kpjGDgKuRM/how-much-computational-power-does-it-take-to-match-the-human). This “[Possible further investigation](https://www.lesswrong.com/posts/nfoYnASKHczH4G5pT/Possible%20further%20investigations)” section might be a great starting point.
   
@@ -178,14 +178,14 @@ tags:: AI Safety, AI Alignment, Collab, Research
   AI-assisted warfare might look like. Studying historical changes in
   values might help anticipate what [intentional and unintentional value corruption](https://www.lesswrong.com/posts/HTgakSs6JpnogD6c2/two-neglected-problems-in-human-ai-safety?_ga=2.66222953.693505013.1654946995-662448457.1649576736) might look like. Thinking about how humans can [leverage existing AI tools](https://www.lesswrong.com/posts/A9tJFJY7DsGTFKKkh/high-stakes-alignment-via-adversarial-training-redwood) might provide a critical headstart for optimally designing future safety technology.
   
-  **Playing with fire.** Some people used to think it was plausible that AGI can be [achieved by copying the brain](https://www.youtube.com/watch?v=Qgd3OK5DZWI&ab_channel=DeepMind) (although the approach is falling out of favor¹⁰). But even if the secret to AGI is not buried in your neuroanatomy textbook, through some type of convergent evolution AGI *might* share some features of the human brain. [Modularity appears like a plausible candidate](https://www.lesswrong.com/posts/XKwKJCXgSKhSr9bZY/project-intro-selection-theorems-for-modularity). Perhaps there are others?
+  **Playing with fire.** Some people used to think it was plausible that AGI can be [achieved by copying the brain](https://www.youtube.com/watch?v=Qgd3OK5DZWI&ab_channel=DeepMind) (although the approach is falling out of favor[¹⁰]()). But even if the secret to AGI is not buried in your neuroanatomy textbook, through some type of convergent evolution AGI *might* share some features of the human brain. [Modularity appears like a plausible candidate](https://www.lesswrong.com/posts/XKwKJCXgSKhSr9bZY/project-intro-selection-theorems-for-modularity). Perhaps there are others?
   
   **Exploring directions we haven’t thought of.** Maybe
   you already had ideas when you began reading this article. Great! The
   above list isn’t intended to constrain your creativity; don’t be afraid
   to try out things. In fact, we believe that the most impact of a
   brain-enthusiast AI safety project could be exactly this: contributing
-  an unusual perspective to AI Safety research¹¹.
+  an unusual perspective to AI Safety research[¹¹]().
   
   If you are still not convinced, consider the [information value gained through failing](https://funds.effectivealtruism.org/grantmaking-approach).
   High-variability projects are lucrative for grantmakers (more
@@ -217,11 +217,15 @@ tags:: AI Safety, AI Alignment, Collab, Research
   ---
 - # **Footnotes:**
 - 1) While we focus on brain enthusiasts, our ideas
+  id:: 679e7fe1-515c-4143-8c73-37b82f730565
   might also apply to other fields that concern themselves with the study
   of complex social or biological systems.
 - 2) We almost certainly got some of these wrong. If you notice a mistake, please reach out to us in the comments or via DM.
+  id:: 679e7fe1-5f57-409a-a9b3-0da6c277fa4c
 - 3) We need a long-tail distribution journal, similar to the Fibonacci Quarterly, seriously.
+  id:: 679e7fe1-88e6-401b-884a-05422474e264
 - 4) Other, minor, reasons include:
+  id:: 679e7fe1-1bca-4551-b6b8-a5f4a875ae2d
 	- Brain enthusiasts aren’t even getting the idea that they could contribute, because of multiple reasons:
 		- We’re missing a good onramp for them.
 		- Path dependencies – people with a CS inside model are biassed towards their
@@ -233,10 +237,15 @@ tags:: AI Safety, AI Alignment, Collab, Research
 	- Interdisciplinary research seems to be harder and more costly than disciplinary research, because of 1) the difficulty of *epistemic translation* (creating a common vocabulary to communicate between fields, understanding the
 	  relevance of certain insights from an outside field for your own field,, and translating knowledge from your field to a target domain), 2) the [probability of getting funded for interdisciplinary research seems to be substantially lower in general](https://www.nature.com/articles/nature18315).
 - 5) The stuff that [Redwood Research](https://www.lesswrong.com/posts/A9tJFJY7DsGTFKKkh/high-stakes-alignment-via-adversarial-training-redwood) does is also useful.
+  id:: 679e7fe1-33ad-48f9-9d2a-661447023b87
 - 6) By the time we have an AGI to experiment on we might not have researchers to do the experimenting.
+  id:: 679e7fe1-c9fa-4090-992f-d97989bdeca7
 - 7) in expected value
+  id:: 679e7fe1-f6b4-4a62-93fd-3d4cc9f8b424
 - 8) we already called dibs on the formal education, sorry not sorry.
+  id:: 679e7fe1-30c6-482e-baa6-d465a488f8e7
 - 9) We suspect that people from fields that are a) not
+  id:: 679e7fe1-63df-41de-b8ea-518112dee415
   cognitive science/neuroscience (or a more technical background) and b)
   nevertheless interested in AI Safety also read this post. In our
   research, we also found many interesting resources for those people. In
@@ -249,7 +258,9 @@ tags:: AI Safety, AI Alignment, Collab, Research
   
   Debating as a method to align agents could be interesting for you if your background is in social sciences (See [here](https://distill.pub/2019/safety-needs-social-scientists/) and [here](https://arxiv.org/pdf/1805.00899.pdf) for more info)
 - 10) The new approach is the much less dignified “GPUs go brrrrrr”.
+  id:: 679e7fe1-3d52-4075-916c-78bd52705d9b
 - 11) Even if you fail – we believe this is what the EA
+  id:: 679e7fe1-7fbb-4af1-b65f-ce0521ad6164
   community is for. The necessary consequence of 80000hours saying that
   we have to focus on technical AI Safety research (with a technical
   background) is not that this is the path everybody has to take. We want
