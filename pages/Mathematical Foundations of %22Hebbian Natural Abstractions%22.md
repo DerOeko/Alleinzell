@@ -23,7 +23,7 @@ tags:: Neuroscience, Hebbian Natural Abstractions, Hebbian Learning, Natural Abs
 - We will use the delta notation for derivatives, i.e. $\Delta w_{ij} = \frac{dw_{ij}}{dt} = \overset{.}w_{ij}$. This means that from $t$ to $t+1$, the weight changes with: $w_{ij}(t+1) = w_{ij}  + \Delta w_{ij}$.
 - For the derivations, we will switch into vector notation at some places. When we do that, we remove indices and make the letter bold.
 - **Definition** **Natural abstractions:** *Abstractions are lower-dimensional but high-level summaries of the things ‘out there’. Often, we can find abstractions that are relevant ‘further ahead (causally, but also in other senses)’ for prediction. They are natural in the sense that we expect a wide selection of intelligent agents to converge on them* ([Wentworth, 2021](https://www.alignmentforum.org/posts/cy3BhHrGinZCp3LXE/testing-the-natural-abstraction-hypothesis-project-intro))*.*
-- **Definition [Hebbian learning:](https://www.wikiwand.com/en/Hebbian_theory)** While there is a [plethora of learning rules](https://www.annualreviews.org/doi/abs/10.1146/annurev.neuro.31.060407.125639), with varying degrees of biological relevance and plausibility, most rules are derivates of the [Hebbian principle](https://www.notion.so/Hebbian-Natural-Abstractions-Introduction-8d6313e54ea14b678c76ce718de8cdbb?pvs=21): *neurons that fire together wire together* (attributed to [Carla Shatz](https://stanmed.stanford.edu/carla-shatz-vision-brain/#:~:text=Those%20results%20eventually%20led%20Shatz,up%2C%20while%20others%20are%20pruned))*.* Thus, *an increase in synaptic efficacy arises from a presynaptic cell's repeated and persistent stimulation of a postsynaptic cell.* The naive implementation of this principle ($\Delta w_{ij} = x_ix_j$) is unstable, i.e. the numerical values of the weights grow indefinitely (see **Appendix**). To resolve this instability, variations of Hebbian learning have been proposed¹.
+- **Definition [Hebbian learning:](https://www.wikiwand.com/en/Hebbian_theory)** While there is a [plethora of learning rules](https://www.annualreviews.org/doi/abs/10.1146/annurev.neuro.31.060407.125639), with varying degrees of biological relevance and plausibility, most rules are derivates of the [Hebbian principle](https://www.notion.so/Hebbian-Natural-Abstractions-Introduction-8d6313e54ea14b678c76ce718de8cdbb?pvs=21): *neurons that fire together wire together* (attributed to [Carla Shatz](https://stanmed.stanford.edu/carla-shatz-vision-brain/#:~:text=Those%20results%20eventually%20led%20Shatz,up%2C%20while%20others%20are%20pruned))*.* Thus, *an increase in synaptic efficacy arises from a presynaptic cell's repeated and persistent stimulation of a postsynaptic cell.* The naive implementation of this principle ($\Delta w_{ij} = x_ix_j$) is unstable, i.e. the numerical values of the weights grow indefinitely (see **Appendix**). To resolve this instability, variations of Hebbian learning have been proposed[¹](((679e7ac3-a006-46b3-b74e-404489a4de57))).
 - **Definition Hebbian learning with weight decay:** For the sake of simplicity, we will focus on one of the simplest variants of Hebbian learning, [Hebbian learning with linear weight decay](https://neuronaldynamics.epfl.ch/online/Ch19.S2.html#:~:text=synapses%20spontaneously%20decay%20back%20to%20zero):
   
   $$
@@ -34,7 +34,7 @@ tags:: Neuroscience, Hebbian Natural Abstractions, Hebbian Learning, Natural Abs
 	- the rule is stable, i.e. it avoids Hebbian runaway dynamics (see **Appendix**).
 	- the rule is biologically plausible in that homeostatic downregulation of large synapses appears as a key mechanism for memory consolidation ([Torrado Pacheco et al., 2021](https://pubmed.ncbi.nlm.nih.gov/33232655/)).
 	- weight decay is important for training deep neural networks, where it acts as a natural regularizer for improved generalization ([Xie et al, 2021](https://arxiv.org/abs/2011.11152)).
-- The structural simplicity of the rule also allows for clean derivations in the rest of this article. We can also derive equivalent results with other rules².
+- The structural simplicity of the rule also allows for clean derivations in the rest of this article. We can also derive equivalent results with other rules[²](((679e7ac3-014c-4a03-87df-7a8c42adad3a))).
   
   ---
 - # The Setup
@@ -43,7 +43,7 @@ tags:: Neuroscience, Hebbian Natural Abstractions, Hebbian Learning, Natural Abs
   
   ![Untitled.webp](../assets/Untitled_1738439532382_0.webp){:height 33, :width 514}
 	- Hierarchical processing in the ventral stream. ([Manassi et al 2013](https://jov.arvojournals.org/article.aspx?articleid=2193828))
-- While the classic framework has limitations³, it still provides a useful approximation of information processing in the biological brain. We focus on two abstract circuits that are ubiquitous throughout the classic framework:
+- While the classic framework has limitations[³](((679e7ac3-2453-4d61-9efd-93c2fbcacf7a))), it still provides a useful approximation of information processing in the biological brain. We focus on two abstract circuits that are ubiquitous throughout the classic framework:
 - **Feedforward circuit**: Given two distinct populations of neurons, how does the brain learn the appropriate neural projections from one population to the other? Generally, the feedforward circuit is a "many-to-one" setup, where several neurons project onto a single neuron in another layer.
 - ![Untitled (1).webp](../assets/Untitled_(1)_1738440300318_0.webp)
 - **Recurrent circuit**: Given a population of neurons, how does the brain learn the appropriate connections of neurons within the circuit? Generally, we interpret a recurrent circuit as a "all-to-all" setup, where several neurons in a layer connect to each other. Even though in practice not all neurons connect with all other neurons, we can still apply the all-to-all setup, where most of the connection strengths are set to zero (see [Ko et al., 2011](https://www.nature.com/articles/nature09880) for some biological background).
@@ -80,7 +80,7 @@ tags:: Neuroscience, Hebbian Natural Abstractions, Hebbian Learning, Natural Abs
   \rho\bold{w} = \bold{x}^T\bold{x}\bold{w}.
   $$
   
-  Let’s equate $\bold{x}^T\bold{x}$ with the covariance matrix of the inputs, $\bold{C}$, under the assumption that the average activity of the inputs centers around zero⁴.
+  Let’s equate $\bold{x}^T\bold{x}$ with the covariance matrix of the inputs, $\bold{C}$, under the assumption that the average activity of the inputs centers around zero[⁴](((679e7ac3-87f2-4c85-9bbe-2c532aadcdf7))).
   
   $$
   \overset{\bold{C}\  := \ \bold{x}^T\bold{x}}\implies \rho\bold{w}= \bold{C}\bold{w}.
@@ -125,10 +125,12 @@ tags:: Neuroscience, Hebbian Natural Abstractions, Hebbian Learning, Natural Abs
 - 1) See [Oja’s rule](http://www.scholarpedia.org/article/Oja_learning_rule)**,** [BCM rule,](http://www.scholarpedia.org/article/BCM_theory) ****[Heterosynaptic STDP](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3787503/) and [balanced inhibitory plasticity](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010682) for more information.
   id:: 679e7ac3-a006-46b3-b74e-404489a4de57
 - 2) For a similar derivation for Oja’s rule, see [this article](http://www.scholarpedia.org/article/Oja_learning_rule).
+  id:: 679e7ac3-014c-4a03-87df-7a8c42adad3a
 - 3) For example, it neglects [feedback connections](https://onlinelibrary.wiley.com/doi/10.1002/cne.23458) and [multimodality](https://www.science.org/doi/10.1126/science.292.5523.1791a).
+  id:: 679e7ac3-2453-4d61-9efd-93c2fbcacf7a
 - 4) Note that we assumed above that the average activity of all cells is zero, which justifies us calling $\bold{x}^T\bold{x}$ the covariance matrix. We leave it to the motivated reader to convince themselves that the derivation also works with non-zero average firing rates and an appropriate offset in the learning rule.
-  
-  ---
+  id:: 679e7ac3-87f2-4c85-9bbe-2c532aadcdf7
+- ---
 - # Appendix
   
   **Why is pure Hebbian learning biologically implausible?**
