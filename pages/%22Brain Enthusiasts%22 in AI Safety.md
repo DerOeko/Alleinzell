@@ -26,7 +26,7 @@ tags:: AI Safety, AI Alignment, Collab, Research
   
   While being brain enthusiasts undoubtedly makes us biased in favor of
   their importance, it also gives us a (hopefully) useful inside view of
-  how brain enthusiasts might meaningfully contribute to AI Safety¹.
+  how brain enthusiasts might meaningfully contribute to AI Safety¹].
   In this post, we attempt to shine a light on the current representation
   of brain enthusiasts in AI Safety and provide some advice on how brain
   enthusiasts might enter the field.
@@ -216,27 +216,27 @@ tags:: AI Safety, AI Alignment, Collab, Research
   
   ---
 - # **Footnotes:**
-- While we focus on brain enthusiasts, our ideas
+- 1) While we focus on brain enthusiasts, our ideas
   might also apply to other fields that concern themselves with the study
   of complex social or biological systems.
-- We almost certainly got some of these wrong. If you notice a mistake, please reach out to us in the comments or via DM.
-- We need a long-tail distribution journal, similar to the Fibonacci Quarterly, seriously.
-- Other, minor, reasons include:
-- Brain enthusiasts aren’t even getting the idea that they could contribute, because of multiple reasons:
-	- We’re missing a good onramp for them.
-	- Path dependencies – people with a CS inside model are biassed towards their
-	  own kin or people with a Neuroscience/CogSci background perceive the
-	  field as being too departmentalized because of this
-- Academia is strongly incentivized for narrow departments – the field is young
-  and people who want to bring AI Safety thoughts into Neuroscience and
-  vice versa have to fight an uphill battle.
-- Interdisciplinary research seems to be harder and more costly than disciplinary research, because of 1) the difficulty of *epistemic translation* (creating a common vocabulary to communicate between fields, understanding the
-  relevance of certain insights from an outside field for your own field,, and translating knowledge from your field to a target domain), 2) the [probability of getting funded for interdisciplinary research seems to be substantially lower in general](https://www.nature.com/articles/nature18315).
-- The stuff that [Redwood Research](https://www.lesswrong.com/posts/A9tJFJY7DsGTFKKkh/high-stakes-alignment-via-adversarial-training-redwood) does is also useful.
-- By the time we have an AGI to experiment on we might not have researchers to do the experimenting.
-- in expected value
-- we already called dibs on the formal education, sorry not sorry.
-- We suspect that people from fields that are a) not
+- 2) We almost certainly got some of these wrong. If you notice a mistake, please reach out to us in the comments or via DM.
+- 3) We need a long-tail distribution journal, similar to the Fibonacci Quarterly, seriously.
+- 4) Other, minor, reasons include:
+	- Brain enthusiasts aren’t even getting the idea that they could contribute, because of multiple reasons:
+		- We’re missing a good onramp for them.
+		- Path dependencies – people with a CS inside model are biassed towards their
+		  own kin or people with a Neuroscience/CogSci background perceive the
+		  field as being too departmentalized because of this
+	- Academia is strongly incentivized for narrow departments – the field is young
+	  and people who want to bring AI Safety thoughts into Neuroscience and
+	  vice versa have to fight an uphill battle.
+	- Interdisciplinary research seems to be harder and more costly than disciplinary research, because of 1) the difficulty of *epistemic translation* (creating a common vocabulary to communicate between fields, understanding the
+	  relevance of certain insights from an outside field for your own field,, and translating knowledge from your field to a target domain), 2) the [probability of getting funded for interdisciplinary research seems to be substantially lower in general](https://www.nature.com/articles/nature18315).
+- 5) The stuff that [Redwood Research](https://www.lesswrong.com/posts/A9tJFJY7DsGTFKKkh/high-stakes-alignment-via-adversarial-training-redwood) does is also useful.
+- 6) By the time we have an AGI to experiment on we might not have researchers to do the experimenting.
+- 7) in expected value
+- 8) we already called dibs on the formal education, sorry not sorry.
+- 9) We suspect that people from fields that are a) not
   cognitive science/neuroscience (or a more technical background) and b)
   nevertheless interested in AI Safety also read this post. In our
   research, we also found many interesting resources for those people. In
@@ -248,12 +248,10 @@ tags:: AI Safety, AI Alignment, Collab, Research
   If you have a philosophy background, [check this out](https://www.lesswrong.com/posts/rASeoR7iZ9Fokzh7L/problems-in-ai-alignment-that-philosophers-could-potentially).
   
   Debating as a method to align agents could be interesting for you if your background is in social sciences (See [here](https://distill.pub/2019/safety-needs-social-scientists/) and [here](https://arxiv.org/pdf/1805.00899.pdf) for more info)
-- The new approach is the much less dignified “GPUs go brrrrrr”.
-- Even if you fail – we believe this is what the EA
+- 10) The new approach is the much less dignified “GPUs go brrrrrr”.
+- 11) Even if you fail – we believe this is what the EA
   community is for. The necessary consequence of 80000hours saying that
   we have to focus on technical AI Safety research (with a technical
   background) is not that this is the path everybody has to take. We want
   to have the highest expected value as a community, not necessarily as an
   individual. Thus, [be ambitious and do things that have great upside scenarios](https://80000hours.org/articles/be-more-ambitious/) – the community is covering you!
-  
-  <!-- notionvc: 38b20b96-b273-442e-92f1-973eab65439f -->
