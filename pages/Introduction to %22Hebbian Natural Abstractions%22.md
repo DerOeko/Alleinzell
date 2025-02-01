@@ -3,17 +3,13 @@ tags:: Neuroscience, Hebbian Natural Abstractions, Hebbian Learning, Natural Abs
 - ---
 - ![hebbiannaturalabstractions.webp](../assets/hebbiannaturalabstractions_1738438804081_0.webp){:height 270, :width 225}
 - **TL;DR:** *This post discusses the pointers problem, its consequences for language and thought, and the potential for resolving it with the concept of 'natural abstractions'. It introduces a new perspective from classic philosophy and neuroscience, showing how the Hebbian learning rule may form a basis for the emergence of natural abstractions in real intelligent agents. The end goal is to provide empirical evidence for the so-called natural abstraction hypothesis and give a more mechanistic explanation for abstractions emergence.*
-  
-  With this sequence, we (Sam + Jan) want to provide a principled derivation of the [natural abstractions hypothesis](https://www.alignmentforum.org/posts/Nwgdq6kHke5LY692J/alignment-by-default#Unsupervised__Natural_Abstractions) (which we will introduce in-depth in later posts) by motivating it with insights from computational neuroscience.
-  
-  Goals for this sequence are:
-- show why we expect natural abstractions to emerge in biological brains,
-- provide empirical evidence and a mechanistic explanation for the emergence of natural abstractions in biology, and
-- spelling out implications of the emergence of natural abstractions in biology.
-  
-  *Author’s note: This is currently my (Sam’s) main research project, but my first nonetheless. Happy to receive any feedback! Some of the original ideas and guidance come from Jan. I don’t expect you, the reader, to have solid background knowledge in any of the discussed topics. So, whenever you get lost, I will try to get you back on board by providing a more high-level summary of what I said.*
-  
-  ---
+- With this sequence, we (Sam + Jan) want to provide a principled derivation of the [natural abstractions hypothesis](https://www.alignmentforum.org/posts/Nwgdq6kHke5LY692J/alignment-by-default#Unsupervised__Natural_Abstractions) (which we will introduce in-depth in later posts) by motivating it with insights from computational neuroscience.
+- Goals for this sequence are:
+	- show why we expect natural abstractions to emerge in biological brains,
+	- provide empirical evidence and a mechanistic explanation for the emergence of natural abstractions in biology, and
+	- spelling out implications of the emergence of natural abstractions in biology.
+- *Author’s note: This is currently my (Sam’s) main research project, but my first nonetheless. Happy to receive any feedback! Some of the original ideas and guidance come from Jan. I don’t expect you, the reader, to have solid background knowledge in any of the discussed topics. So, whenever you get lost, I will try to get you back on board by providing a more high-level summary of what I said.*
+- ---
 - # Why are ‘abstractions’ relevant?
   
   As alignment researchers, the higher-level problem we are trying to solve is: ‘*How do we teach an AI what we value?*’. To simplify the question, we assume that we already know what we value¹. Now, we’ve got to teach an AI that we value “things out there in the world”, e.g. trees. Specifying “trees” should be easy, right?
@@ -26,17 +22,13 @@ tags:: Neuroscience, Hebbian Natural Abstractions, Hebbian Learning, Natural Abs
   AGI: »*Huh, this tree seems to be made out of papier-mâché.*«
   You: »*Ahhh uups… Yea, humans are fallible. Don’t treat my best guess estimations as unfailing sources of truth. Please note that I care about the [territory](https://www.wikiwand.com/en/On_Exactitude_in_Science) - not just the map in my head that might be mistaken.*«
   AGI: »*Wh- What? How should I know about the relation between your map and the territory?*«
-  
-  In a similar vein, John Wentworth [spells out](https://www.lesswrong.com/posts/gQY6LrTWJNkTv8YJR/the-pointers-problem-human-values-are-a-function-of-humans) the **pointers problem**²: *‘An AI should optimize for the real-world things I value, not just my estimates of those things’.* He formalizes the problem as follows:
+- In a similar vein, John Wentworth [spells out](https://www.lesswrong.com/posts/gQY6LrTWJNkTv8YJR/the-pointers-problem-human-values-are-a-function-of-humans) the **pointers problem**²: *‘An AI should optimize for the real-world things I value, not just my estimates of those things’.* He formalizes the problem as follows:
 - “What functions of what variables (if any) in the environment and/or another world model correspond to the latent variables in the agent’s world model”.
-  
-  Let’s apply JW’s definition to the trees example from above.
-- The concept of a ‘tree’ (that’s what JW calls a ‘*latent variable’*) is not directly observable and is only clear in your head.
-- To make the concept observable, you have to specify the correct relationship between the concept in your head and the observable objects in the world (that’s what JW calls ‘*functions of […] variables (if any) in the environment and/or another world model*’).
-  
-  Eventually, you want to transfer something (the concept of a tree) in your map to the AGI’s map (that’s what JW calls ‘*agents world model*’).
-  
-  There is also an analogous view on the pointers problem from classic philosophy, called the ‘[problem of universals](https://www.wikiwand.com/en/Problem%20of%20universals)’. Similar to our story, we face issues when pointing towards the ‘*universal* of a tree’. We will explain the problem of universals using an example:
+- Let’s apply JW’s definition to the trees example from above.
+	- The concept of a ‘tree’ (that’s what JW calls a ‘*latent variable’*) is not directly observable and is only clear in your head.
+	- To make the concept observable, you have to specify the correct relationship between the concept in your head and the observable objects in the world (that’s what JW calls ‘*functions of […] variables (if any) in the environment and/or another world model*’).
+	- Eventually, you want to transfer something (the concept of a tree) in your map to the AGI’s map (that’s what JW calls ‘*agents world model*’).
+	- There is also an analogous view on the pointers problem from classic philosophy, called the ‘[problem of universals](https://www.wikiwand.com/en/Problem%20of%20universals)’. Similar to our story, we face issues when pointing towards the ‘*universal* of a tree’. We will explain the problem of universals using an example:
 - Let’s consider the thought process of the divine mind³ when creating trees. Trees come in very different shapes or differing branching patterns. Now, who imposed on them that they are ‘trees’? Did the divine mind already have a category in mind and created *trees from an existing idea of trees, [universalia ante rem](https://plato.stanford.edu/entries/universals-medieval/notes.html#note-4)* (‘universals before the thing’)? Is the idea of a tree *realized in trees, [universalia in re](https://plato.stanford.edu/entries/universals-medieval/notes.html#note-4)* (’universals in the thing’)? Or did *we* create the idea of a tree by examining trees and throwing away unnecessary properties? This would mean that we formed something like an abstraction, [*universalia post rem](https://www.notion.so/8d6313e54ea14b678c76ce718de8cdbb?pvs=21)* (’universals after the thing’).
   
   As we will see, the *natural* part in ‘natural abstractions hypothesis’ suggests that we should expect universals, *in the things*⁴.
@@ -55,7 +47,7 @@ tags:: Neuroscience, Hebbian Natural Abstractions, Hebbian Learning, Natural Abs
   
   ---
   
-  Future posts will talk about the [mathematics behind 'Hebbian' Natural Abstractions](https://www.snellessen.com/mathematical-foundations-of-hebbian-natural-abstractions) and the empirical background.
+  Future posts will talk about the [mathematics behind 'Hebbian' Natural Abstractions]([[Mathematical Foundations of "Hebbian Natural Abstractions"]]) and the empirical background.
   
   ---
 - # Footnotes
