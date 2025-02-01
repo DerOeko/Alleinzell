@@ -45,15 +45,12 @@ tags:: Neuroscience, Hebbian Natural Abstractions, Hebbian Learning, Natural Abs
 	- Hierarchical processing in the ventral stream. ([Manassi et al 2013](https://jov.arvojournals.org/article.aspx?articleid=2193828))
 - While the classic framework has limitations³, it still provides a useful approximation of information processing in the biological brain. We focus on two abstract circuits that are ubiquitous throughout the classic framework:
 - **Feedforward circuit**: Given two distinct populations of neurons, how does the brain learn the appropriate neural projections from one population to the other? Generally, the feedforward circuit is a "many-to-one" setup, where several neurons project onto a single neuron in another layer.
--
+- ![Untitled (1).webp](../assets/Untitled_(1)_1738440300318_0.webp)
 - **Recurrent circuit**: Given a population of neurons, how does the brain learn the appropriate connections of neurons within the circuit? Generally, we interpret a recurrent circuit as a "all-to-all" setup, where several neurons in a layer connect to each other. Even though in practice not all neurons connect with all other neurons, we can still apply the all-to-all setup, where most of the connection strengths are set to zero (see [Ko et al., 2011](https://www.nature.com/articles/nature09880) for some biological background).
-  
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0348ccf6-6a8e-43f9-b02c-0f6940f183ce/Untitled.png)
+- ![Untitled (2).webp](../assets/Untitled_(2)_1738440314726_0.webp)
 - ## ‘Many-to-one’: Feedforward circuits - analysis
-  
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c613ab71-a7fd-4bbc-9898-b38c9936b044/Untitled.png)
-  
-  In this scenario individual neurons that receive multiple of inputs from another population of neurons (as is the case for pyramidal neurons in layer 2/3 of the cortex). Speaking in terms of information processing, each neuron faces the task of extracting “*relevant*” information from a barrage of synaptic inputs. So, the neuron has to prioritize some inputs over others, depending on its role in the circuit. This role emerges during early brain development in an activity-dependent fashion through the flexible self-organization of neural circuits ([Kirchner, 2022](https://universalprior.substack.com/p/the-brain-that-builds-itself)).
+- ![Untitled (3).webp](../assets/Untitled_(3)_1738440326854_0.webp)
+- In this scenario individual neurons that receive multiple of inputs from another population of neurons (as is the case for pyramidal neurons in layer 2/3 of the cortex). Speaking in terms of information processing, each neuron faces the task of extracting “*relevant*” information from a barrage of synaptic inputs. So, the neuron has to prioritize some inputs over others, depending on its role in the circuit. This role emerges during early brain development in an activity-dependent fashion through the flexible self-organization of neural circuits ([Kirchner, 2022](https://universalprior.substack.com/p/the-brain-that-builds-itself)).
   
   $$
   (1) \ \small{\text{Hebbian learning with weight decay}}\ \\\; \tau_w\Delta w_i = x_iy-\rho w_i
@@ -92,10 +89,8 @@ tags:: Neuroscience, Hebbian Natural Abstractions, Hebbian Learning, Natural Abs
   We recognize that this equation is the [eigenvector equation](https://www.wikiwand.com/en/Eigenvalues_and_eigenvectors), i.e. we learn that the vector of synaptic weights, $\bold{w}$, should be an eigenvector of the covariance matrix, $\bold{x}^T\bold{x}$. Under [reasonable assumptions](http://www.scholarpedia.org/article/Oja_learning_rule#Oja_learning_rule_and_principal_component_analysis), we can furthermore derive that $\bold{w}$ will be proportional to the eigenvector of the covariance matrix with the largest eigenvalue ([Oja, 1983](https://openlibrary.org/books/OL3172585M/Subspace_methods_of_pattern_recognition); [1992](https://www.sciencedirect.com/science/article/abs/pii/S0893608005800899)).
   
   In summary, a neuron in the feedforward circuit will learn to extract a principal component of its input:
-  
-  ![Each red arrow indicates the extracted principal component that emerged through Hebbian learning of input weights.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0a61afdc-521b-488a-a119-bd211f2ff278/Untitled.png)
-  
-  Each red arrow indicates the extracted principal component that emerged through Hebbian learning of input weights.
+- ![Untitled (4).webp](../assets/Untitled_(4)_1738440396471_0.webp)
+- Each red arrow indicates the extracted principal component that emerged through Hebbian learning of input weights.
   
   We have arrived at the principal component by deriving it as the eigenvector of the covariance matrix. Interestingly, principal component analysis identifies the eigenvector *corresponding to the largest eigenvalue of the covariance matrix* as the projections of the input space that [retain the largest amount of variance](https://www.wikiwand.com/en/Principal_component_analysis#:~:text=First). In our case, this is the weight vector $\bold{w}$ at the point of convergence.
   
@@ -103,10 +98,8 @@ tags:: Neuroscience, Hebbian Natural Abstractions, Hebbian Learning, Natural Abs
 - ## ‘All-to-All’: Recurrent circuit - analysis
   
   The second important component of the hierarchical processing framework is the recurrent circuit. In this circuit, individual neurons within a population interconnect, creating a network that allows information to pass back and forth between neurons. This type of circuit is important for tasks like memory and pattern recognition, where information from multiple sources is integrated and processed over time.
-  
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0348ccf6-6a8e-43f9-b02c-0f6940f183ce/Untitled.png)
-  
-  In the recurrent circuit we have to consider a quadratic number of possible connections, $w_{ij}$, rather than the linear number of connections from the feedforward circuit, $w_j$. In particular, the rule for Hebbian learning with weight decay now becomes
+- ![Untitled (4).webp](../assets/Untitled_(4)_1738440362703_0.webp)
+- In the recurrent circuit we have to consider a quadratic number of possible connections, $w_{ij}$, rather than the linear number of connections from the feedforward circuit, $w_j$. In particular, the rule for Hebbian learning with weight decay now becomes
   
   $$
   (1') \ \small{\text{Hebbian learning with weight decay in a recurrent network}}\ \\\; \tau_w\Delta w_{ij} = x_ix_j-\rho w_{ij}
