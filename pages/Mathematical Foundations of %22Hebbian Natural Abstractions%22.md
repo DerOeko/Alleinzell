@@ -41,9 +41,8 @@ tags:: Neuroscience, Hebbian Natural Abstractions, Hebbian Learning, Natural Abs
   
   A classic framework for understanding information processing in the biological brain is the [hierarchical processing framework](https://universalprior.substack.com/p/serendipitous-connections-applying?utm_source=substack&utm_campaign=post_embed&utm_medium=web). In this framework, sensory information enters the brain through the sensory organs (eyes, ears, taste buds, olfactory system, somatosensory system, …). This information then progresses through layers on the cortical hierarchy. At each step of the hierarchy, neural circuits process the sensory information and integrate it into a coherent whole with prior information. The further up in the cortical hierarchy a neuron lives, the higher-order the information that neuron processes will be.
   
-  ![Hierarchical processing in the ventral stream. (Manassi et al 2013)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dab4707a-66f8-4e9f-97cd-e50098c27dc0/Untitled.png)
-  
-  Hierarchical processing in the ventral stream. ([Manassi et al 2013](https://jov.arvojournals.org/article.aspx?articleid=2193828))
+  ![Untitled.webp](../assets/Untitled_1738439532382_0.webp){:height 33, :width 514}
+	- Hierarchical processing in the ventral stream. ([Manassi et al 2013](https://jov.arvojournals.org/article.aspx?articleid=2193828))
 - While the classic framework has limitations³, it still provides a useful approximation of information processing in the biological brain. We focus on two abstract circuits that are ubiquitous throughout the classic framework:
 - **Feedforward circuit**: Given two distinct populations of neurons, how does the brain learn the appropriate neural projections from one population to the other? Generally, the feedforward circuit is a "many-to-one" setup, where several neurons project onto a single neuron in another layer.
   
