@@ -18,3 +18,6 @@
 	- Use "Shift + Click" to open things in the sidebar.
 	- If you ever get lost, click the home button to get back to this page.
 	- Feel free to close or open the left and right panels by pressing "t + l" or "t + r", or clicking the respective icons.
+	- #card There is a flashcard panel,
+		- but feel free to ignore it for now, as I might use it for later.
+-
