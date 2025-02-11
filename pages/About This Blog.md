@@ -1,4 +1,5 @@
 - ![Untitled design.png](../assets/Untitled_design_1738442268466_0.png)
+- If you are interested in the stuff I write, skip ahead to: [[Writings]]
 - ---
 - I am a Bachelor student in Artificial Intelligence at [Radboud University](https://www.ru.nl/en/education/bachelors/artificial-intelligence), Nijmegen, Netherlands, with former education in Philosophy, Neuroscience, and Cognition, as well as Psychology. My academic interests are:
 	- Steering towards a mechanistic understanding of neural networks and their internal representations.
